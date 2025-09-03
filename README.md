@@ -16,11 +16,6 @@
 - **备用地址**: [https://bxiuren.com](https://bxiuren.com)
 - **永久发布页**: [https://xiuren.xyz](https://xiuren.xyz)
 
-### 线路状态
-- ✅ **axiuren.com** - 正常运行
-- ✅ **bxiuren.com** - 正常运行  
-- ✅ **xiuren.xyz** - 永久发布页
-
 ---
 
 ## 📱 推荐浏览器
