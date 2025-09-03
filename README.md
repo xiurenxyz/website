@@ -1,4 +1,4 @@
-# 【秀人网】の网址发布页 📖
+# 【秀人网】の网址发布页 📖（2025.09.01 最后编辑时间）
 
 > **XiuRen Official Website URL Release Page**  
 > **秀人官网永久网址发布页面**
