@@ -2,19 +2,23 @@
 
 > **XiuRen Official Website URL Release Page**  
 > **秀人官网永久网址发布页面**
-
+[![永久发布页](https://img.shields.io/badge/永久发布页-XiuRen.Xyz-orange)](https://xiuren.xyz)
 [![访问主站](https://img.shields.io/badge/访问主站-AxiuRen.com-blue)](https://axiuren.com)
 [![备用线路](https://img.shields.io/badge/备用线路-BxiuRen.com-green)](https://bxiuren.com)
-[![永久发布页](https://img.shields.io/badge/永久发布页-XiuRen.Xyz-orange)](https://xiuren.xyz)
 
 ---
 
 ## 🌐 最新网址
 
-### 主要线路
-- **主站地址**: [https://axiuren.com](https://axiuren.com)
-- **备用地址**: [https://bxiuren.com](https://bxiuren.com)
-- **永久发布页**: [https://xiuren.xyz](https://xiuren.xyz)
+### 发布页地址
+- **永久发布页①**: [https://XiuRen.Xyz](https://xiuren.xyz)
+- **永久发布页②**: [https://XiuRen.Pro](https://xiuren.pro)
+- **永久发布页③**: [https://XiuRen.xyz](https://xiuren.xyz)
+
+### 业务地址（被墙后，会不定期更新）
+- **主站地址**: [https://AxiuRen.com](https://axiuren.com)
+- **备用地址**: [https://BxiuRen.com](https://bxiuren.com)
+
 
 ---
 
