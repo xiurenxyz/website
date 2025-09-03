@@ -13,7 +13,7 @@
 ### 发布页地址
 - **永久发布页①**: [https://XiuRen.Xyz](https://xiuren.xyz)
 - **永久发布页②**: [https://XiuRen.Pro](https://xiuren.pro)
-- **永久发布页③**: [https://XiuRen.xyz](https://xiuren.xyz)
+- **永久发布页③**: [https://XiuRen.Space](https://xiuren.space)
 
 ### 业务地址（被墙后，会不定期更新）
 - **主站地址**: [https://AxiuRen.com](https://axiuren.com)
