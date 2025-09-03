@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>404 - 页面未找到</title>
+    <style>
+        body {
+            background-color: #87CEEB; /* 天蓝色背景 */
+            text-align: center;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .system {
+            margin-bottom: 20px; /* 图片和按钮之间的距离 */
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+
+        .open-button {
+            display: inline-block;
+            padding: 12px 24px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 8px;
+            font-size: 18px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        .open-button:hover {
+            background-color: #45a049;
+        }
+
+        .open-button:focus {
+            outline: none;
+        }
+
+        .redirect-info {
+            margin: 20px 0;
+            padding: 15px;
+            background-color: rgba(255, 255, 255, 0.8);
+            border-radius: 8px;
+            color: #333;
+            font-size: 14px;
+            max-width: 500px;
+        }
+
+        .countdown {
+            font-size: 18px;
+            font-weight: bold;
+            color: #e74c3c;
+            margin: 10px 0;
+        }
+    </style>
+</head>
+<body>
+    <!-- 图片居中 -->
+    <a href="http://axiuren.com">
+        <div class="system">
+            <img src="https://ftp.bmp.ovh/imgs/2021/09/fb443d84c2b5aef9.png" alt="Image" />
+        </div>
+    </a>
+
+    <!-- 重定向信息 -->
+    <div class="redirect-info">
+        <div class="countdown" id="countdown">3秒后自动跳转...</div>
+        <p>页面未找到，正在跳转到主站...</p>
+        <p>目标地址：<strong id="targetUrl">axiuren.com</strong></p>
+    </div>
+
+    <!-- 添加按钮，点击后在新窗口打开链接 -->
+    <button class="open-button" onclick="window.open('http://axiuren.com', '_blank')">
+        在新窗口打开秀人网
+    </button>
+
+    <script>
+        // 获取当前访问的路径
+        const currentPath = window.location.pathname;
+        const targetDomain = 'axiuren.com';
+        const targetUrl = 'http://' + targetDomain + currentPath;
+        
+        // 更新显示的目标URL
+        document.getElementById('targetUrl').textContent = targetUrl;
+        
+        // 倒计时功能
+        let countdown = 3;
+        const countdownElement = document.getElementById('countdown');
+        
+        const timer = setInterval(() => {
+            countdown--;
+            if (countdown > 0) {
+                countdownElement.textContent = countdown + '秒后自动跳转...';
+            } else {
+                countdownElement.textContent = '正在跳转...';
+                clearInterval(timer);
+                
+                // 延迟一点时间让用户看到跳转信息
+                setTimeout(() => {
+                    // 跳转到目标URL，保持路径不变
+                    window.location.href = targetUrl;
+                }, 500);
+            }
+        }, 1000);
+        
+        // 如果用户点击了按钮，清除倒计时
+        document.querySelector('.open-button').addEventListener('click', () => {
+            clearInterval(timer);
+            countdownElement.textContent = '用户手动跳转';
+        });
+    </script>
+</body>
+</html>
